@@ -14,6 +14,9 @@
         font-size: 55rem;
         color: var(--white);
         margin-bottom: 24rem;
+        @include mobile{
+            font-size: var(--mobile-title);
+        }
     }
 
     &__desc {
@@ -54,7 +57,7 @@
 
         .img-desctop,
         .img-mobile {
-            border-radius: 12rem;
+            border-radius: 19rem;
         }
 
         .img-desctop {

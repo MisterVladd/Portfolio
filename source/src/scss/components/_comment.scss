@@ -21,6 +21,9 @@
             font-size: 55rem;
             color: var(--white);
             margin-bottom: 24rem;
+            @include mobile{
+                font-size: var(--mobile-title);
+            }
         }
 
         &__desc {

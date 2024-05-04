@@ -4,6 +4,7 @@
 	justify-content: space-between;
 	padding: 0px 72px;
 	position: relative;
+	z-index: 6;
 	@include mobile{
 		padding: 0rem 20rem;
 	}
@@ -74,7 +75,7 @@
 			flex-direction: column;
 			left: 0;
 			top: 0;
-			background: var(--c-primary);
+			background: var(--level-1);
 			align-items: center;
 			justify-content: center;
 			transform: translateX(-120%);
@@ -102,8 +103,6 @@
 
 
 
-
-		@include tablet {}
 	}
 }
 

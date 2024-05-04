@@ -57,8 +57,9 @@
 		height: 48rem;
 
 		@include tablet-small {
-			width: 160rem;
+			max-width: 160rem;
 			height: 48rem;
+			width: 100%;
 		}
 	}
 
